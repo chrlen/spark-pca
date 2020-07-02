@@ -7,6 +7,4 @@ The implementation was constrained to run on the university cluster running the 
 This version was old at the time of the project and did not provide any functions to load and decode images.
 Therefore, the images where converted to grayscale and stored as csv-files with a python script and then loaded as text-files.
 
-Unfortunately compilation is not possible anymore are the sources for spark 1.6 are not provided anymore through sbt as they where at time of the project.
-
 Check the file [main.scala](src/main/scala/pca/main.scala) for the implementation.
